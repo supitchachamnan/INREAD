@@ -1,0 +1,153 @@
+body {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 20px;
+}
+
+/* navbar bg */
+header {
+    background-color: #53A8CD;
+    text-shadow: gray;
+
+    li {
+        font-size: 17px;
+    }
+}
+
+.htext {
+    color: white;
+}
+
+
+/* firstpage */
+.first {
+    background-color: #53A8CD;
+}
+
+/* เกริ่น */
+.font {
+    font-size: 20px;
+    color: #008ad4;
+    /*color: #4f9ac3;*/
+}
+
+.title {
+    
+    color: #ea4ca5;
+    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);*/
+    /*color: #fa7cc3;*/
+    /*color: #ea4ca5;*/
+}
+
+
+bg{
+    background-color: #c5dfec;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900px;
+    color: #ffc0e4;
+}
+
+h2 {
+    font-size: 35px;
+    color: #245683;
+}
+
+h3 {
+    color: #245683;
+}
+
+footer {
+    background-color: #53A8CD;
+}
+
+footer p {
+    font-size: 25px;
+    color: white;
+}
+
+footer h2 {
+    font-size: 30px;
+    font-weight: 900px;
+    color: white;
+}
+
+.acc-header{
+    font-size: 35px;
+    color: #245683;
+}
+
+.center-div {
+    color: #1B70B1;
+    display: flex;
+    justify-content: center;
+    /* จัดกลางในแนวนอน */
+    flex-direction: column;
+    /* จัดให้รูปภาพและข้อความอยู่ในแนวตั้ง */
+    align-items: center;
+    /* จัดให้อยู่กลางในแนวตั้ง */
+    text-align: center;
+    /* จัดข้อความให้อยู่กลาง */
+
+}
+
+.center-c {
+    justify-content: center;
+    /* จัดข้อความให้อยู่ตรงกลางแนวนอน */
+    align-items: center;
+    /* จัดข้อความให้อยู่ตรงกลางแนวตั้ง */
+}
+
+.scrolling-wrapper-flexbox {
+    display: flex;
+    overflow-x: auto;
+    overflow: auto;
+    flex-wrap: nowrap;
+}
+
+.scrolling-wrapper-flexbox {
+    &::-webkit-scrollbar {
+        display: touch;
+    }
+}
+
+.topic-color {
+    color: #245683;
+}
+
+.dashlink {
+    color: #4FB2FF;
+}
+
+.div {
+        border: red 2px solid;
+}
+
+.dash-title {
+    font-size: 26px; /* หรือปรับเป็น 40px, 48px ตามต้องการ */
+    font-weight: bold;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shadowimg {
+    color: #0081BA;
+  max-width: 100%;
+  max-height: 200px; /* หรือปรับตามความสูงที่ต้องการ */
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.description-header {
+    color: #3F4A5B;
+}
+
+.description {
+    color: #4C4241;
+}
